@@ -1,0 +1,15 @@
+{
+  "duration": 45,
+  "sections": {
+    "0-about": "À propos",
+    "0-survival": "Guide de survie",
+    "1-workspace": "Maîtriser son workspace",
+    "2-branches": "Maîtriser sa branche",
+    "3-code-review": "Revue de code avec git",
+    "4-codebase-browsing": "Explorer la base de code",
+    "998-questions": "Unleash the troll",
+    "999-fin": "Merci"
+  },
+  "theme": "memories",
+  "title": "Be a git Jedi Master"
+}
