@@ -2,9 +2,9 @@
 ## Frédéric Menou
 ![](profile.jpg)
 
-java, ruby, git, bash
+Java, Ruby, git, bash
 
-clean code, tdd
+Clean Code, TDD
 
 programmation concurrente, systèmes distribués
 
