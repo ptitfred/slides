@@ -1,0 +1,25 @@
+/* Capitaine Train variant. */
+html { background-color: #d6ebd3; }
+header.slide { background-color: #71af69; color: #fff; }
+
+/* Per conference logo in front page. */
+section header#slide1 {
+  background:
+     url(/assets/logos/capitaine-train.png) no-repeat 0% 100%,
+     url(/assets/logos/conference.png) no-repeat 100% 100%;
+  background-color: white;
+  color: inherit;
+}
+
+section.slide.demo {
+  background: url(/assets/illustrations/demo.png) no-repeat 50% 50%;
+  background-size: contain;
+  background-color: white;
+}
+
+section header[data-title='( psss: billets pour Noël disponibles )'] {
+  font-size: 0.23in;
+  background-image: url(/assets/illustrations/cover-christmas.png);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}

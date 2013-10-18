@@ -1,0 +1,17 @@
+{
+  "duration": 50,
+  "sections": {
+    "0-about":                 "À propos",
+    "1-capitaine-train":       "capitaine train",
+    "2-cas-general":           "La routine",
+    "3-urgence":               "Gérer l'urgence",
+    "4-infrastructure-evolue": "Changements d'infrastructure",
+    "5-chantiers":             "Grosses évolutions",
+    "6-retour-experience":     "Nous avons beaucoup appris",
+    "999-fin":                 "Merci",
+    "999-jobs":                "Nous recrutons",
+    "999-nowel":               "( psss: billets pour Noël disponibles )"
+  },
+  "theme": "memories",
+  "title": "Livraison continue chez Capitaine Train"
+}

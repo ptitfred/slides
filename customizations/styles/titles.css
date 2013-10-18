@@ -2,9 +2,35 @@ html { background-color: #eee8ae; }
 header.slide { background-color: #6c71c4; color: #fff; }
 body section header.slide h1 { font-size: 300%; }
 body section.slide h1 { font-size: 1.0in; }
-body section.slide h2 { font-size: 0.8in; }
+.slide h1, .slide h2 { margin-bottom: 0.2in; }
 
 .two_cols pre { float: left; width: 43%; margin-right: 4%; }
 .two_cols img { float: left; margin-right: 5%; }
 
 a { color: #268bd2; text-shadow: .05em .05em .1em rgba(0,0,0,.2); }
+
+.slide {
+  padding: 0 5% 2%;
+}
+
+.slide {
+  /* Disable dummy slides transitions. */
+  transition: none;
+}
+
+.slide strong {
+  color: darkred;
+}
+
+.slide em {
+  color: darkgreen;
+}
+
+.slide * {
+  word-spacing: 0.04in;
+}
+
+.slide hr {
+  border: none;
+  margin: 0.25in;
+}
