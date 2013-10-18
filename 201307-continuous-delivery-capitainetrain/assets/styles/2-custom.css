@@ -16,3 +16,10 @@ section.slide.demo {
   background-size: contain;
   background-color: white;
 }
+
+section header[data-title='( psss: billets pour Noël disponibles )'] {
+  font-size: 0.23in;
+  background-image: url(/assets/illustrations/cover-christmas.png);
+  background-repeat: no-repeat;
+  background-position: 50% 80%;
+}
