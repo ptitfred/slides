@@ -9,11 +9,51 @@ Du code certes, mais aussi de la configuration
 
 
 !SLIDE
+# Intégration
+
+Branches _dev_ et _master_
+
+* * *
+
+Intégration continue via Jenkins
+
+Déploiement automatique sur des environnements dédiés
+
+
+!SLIDE
 # Quotidien d'un développeur
 
-*PullRequest*   topic-branch → dev
+### Pull Request
 
-**Release**        dev → master
+topic-branch → dev
+
+### Release
+
+dev → master
+
+
+!SLIDE
+# Qualité du code
+
+Couverture de test
+
+Pertinence des tests
+
+Respect du codestyle
+
+Du code lisible
+
+
+!SLIDE
+# Revue de code
+
+Fait intervenir un pair
+
+* * *
+
+Contrevisite sur la qualité
+
+S'enquiert des pièges classiques
 
 
 !SLIDE
@@ -31,6 +71,8 @@ Build rapide & reproductible
 
 Environnements d'intégration proches de la production
 
+Bien identifier les tiers concernés
+
 
 !SLIDE
 # like-prod everywhere
@@ -41,15 +83,41 @@ Environnements d'intégration proches de la production
 
 
 !SLIDE
+# Préparation d'une MEP
+
+Merge dev → master
+
+```
+$ ct release
+CHANGELOG koala - Frédéric Menou
+*   39b7173  Merge branch 'eucalyptus-service' into 'dev'
+|\  
+| * 9f72590 Eucalyptus service
+|/  
+o c8e7dab Merge branch 'ruby-2.0' into 'dev'
+Do you want to merge and push? [y/N] 
+```
+
+Notification automatique sur le chat interne
+
+!SLIDE
 # Déroulement d'une MEP
 
 Déploiement standard ⬄ 1 commande
 
-Scripts *bash + fabric*
+```
+$ ct deploy koala
+On build1
+  fab -R production koala_deploy:file=koala_201403271611_ba99aac.tar.gz,branch=master
+
+Do you want to deploy? [y/N]
+```
 
 Manuel mais routinier
 
-Suivi de la production
+* * *
+
+Notification automatique sur le chat interne
 
 
 !SLIDE

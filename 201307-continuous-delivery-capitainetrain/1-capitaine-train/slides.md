@@ -1,4 +1,5 @@
 !SLIDE demo
+### « Vous allez aimer acheter vos billets de train. »
 
 
 !SLIDE
@@ -17,6 +18,8 @@
 La plateforme doit être stable
 
 Il faut pouvoir livrer du code facilement
+
+* * *
 
 Objectif : **0-downtime**
 
