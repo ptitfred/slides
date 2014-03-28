@@ -3,17 +3,19 @@
 
 Le parc grossit
 
-La base de données se réplique
-
-Les composants se spécialisent
+Arrivée des applications mobiles
 
 * * *
 
 Nos fournisseurs évoluent aussi
 
+* * *
+
+Les composants se spécialisent
+
 
 !SLIDE
-### Risques pour la disponibilité ?
+## Risques ?
 
 - Que se passe-t-il quand un composant est déployé sur 2 machines ?
 - Le DBA peut-il faire une montée de version majeure ?
@@ -34,8 +36,10 @@ Nos fournisseurs évoluent aussi
 
 Bus AMQP (RabbitMQ)
 
+* * *
+
 Souplesse :
 
-- de développement,
-- d'intégration,
+- de développement
+- d'intégration
 - de déploiement

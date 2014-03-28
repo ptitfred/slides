@@ -3,6 +3,8 @@
 
 Concernent au moins 2 composants
 
+* * *
+
 A faire en plusieurs étapes
 
 
@@ -14,6 +16,12 @@ Dépendances via des APIs (interne ou externe)
 * * *
 
 Dépendances via le schéma SQL
+
+
+!SLIDE
+# Connaître son système
+
+![](assets/illustrations/schema.png)
 
 
 !SLIDE
@@ -35,10 +43,6 @@ Eviter les opérations bloquantes : expertise SQL
 
 Code jetable
 
+* * *
+
 Valable pour les APIs
-
-
-!SLIDE
-# Connaître son système
-
-![](assets/illustrations/schema.png)
