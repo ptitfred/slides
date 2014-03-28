@@ -93,9 +93,9 @@ section.slide.demo h3 {
   color: #1d6ba2;
 }
 
-section header[data-title='( psss: billets pour Noël disponibles )'] {
+section header[data-title='( psss: appli Android disponible )'] {
   font-size: 0.23in;
-  background-image: url(/assets/illustrations/cover-christmas.png);
+  background-image: url(/assets/illustrations/google_play.png);
   background-repeat: no-repeat;
   background-position: 50% 80%;
 }
